@@ -13,7 +13,7 @@ const GlobalNotification = () => {
       <div className="flex items-center bg-th-bkg-4 text-th-fgd-1">
         <div className="w-full text-center p-2.5">
           <span>
-            The NeoNomad Futures Exchange Agg is currently under testing. Experiencing degraded performance resulting in some transactions timing out.
+            The NeoNomad Exchange is currently under testing. See Solana Network Status
           </span>
           <a
             href="https://status.solana.com"
