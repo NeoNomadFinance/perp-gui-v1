@@ -39,7 +39,7 @@ const MarketSelect = () => {
         found.markets.push(market)
       }
     })
-    setSortedMarkets(markets)
+    setSortedMarkets(markets.filter((m) => m.baseAsset != "MNGO"))
   }, [groupConfig])
 
   return (
@@ -78,7 +78,7 @@ const MarketSelect = () => {
         <div className="flex items-center justify-between pl-3 w-full">
           <div className="flex items-center space-x-6">
             {sortedMarkets
-              .filter((m) => !hiddenMarkets.includes(m.baseAsset) && m.baseAsset != "MNGO")
+              .filter((m) => !hiddenMarkets.includes(m.baseAsset))
               .map((s) => (
                 <MarketMenuItem
                   key={s.baseAsset}
