@@ -8,7 +8,7 @@ import { useTranslation } from 'next-i18next'
 const THEMES = [
   { name: 'Light', icon: <SunIcon className="h-4 w-4" /> },
   { name: 'Dark', icon: <MoonIcon className="h-4 w-4" /> },
-  { name: 'Mango', icon: <MangoIcon className="stroke-current h-4 w-4" /> },
+  // { name: 'Mango', icon: <MangoIcon className="stroke-current h-4 w-4" /> },
 ]
 
 const ThemeSwitch = () => {
