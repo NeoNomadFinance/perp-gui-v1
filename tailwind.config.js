@@ -26,7 +26,7 @@ module.exports = {
         'light-theme': {
           orange: {
             DEFAULT: '#FF9C24',
-            dark: '#F58700',
+            dark: '#FFFFFF',
           },
           red: { DEFAULT: '#ef5350', dark: '#AA2222', muted: '#eba9a9' },
           green: { DEFAULT: '#26a69a', dark: '#4BA53B', muted: '#bfe5b8' },
