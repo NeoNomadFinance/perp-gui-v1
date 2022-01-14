@@ -1,13 +1,13 @@
-import { useEffect, useState } from 'react'
+//import { useEffect, useState } from 'react'
 //import { MenuIcon, PlusCircleIcon } from '@heroicons/react/outline'
 //import useMangoGroupConfig from '../hooks/useMangoGroupConfig'
 //import MarketMenuItem from './MarketMenuItem'
-import { LinkButton } from './Button'
+//import { LinkButton } from './Button'
 //import MarketsModal from './MarketsModal'
-import useLocalStorageState from '../hooks/useLocalStorageState'
-import { useViewport } from '../hooks/useViewport'
-import { breakpoints } from './TradePageGrid'
-import { useTranslation } from 'next-i18next'
+// import useLocalStorageState from '../hooks/useLocalStorageState'
+// import { useViewport } from '../hooks/useViewport'
+// import { breakpoints } from './TradePageGrid'
+// import { useTranslation } from 'next-i18next'
 
 // const StyledMarketSelectWrapper = styled.div`
 //   -ms-overflow-style: none;
@@ -110,4 +110,4 @@ import { useTranslation } from 'next-i18next'
 //   </LinkButton>
 // )
 
-export default MarketSelect
+//export default MarketSelect
