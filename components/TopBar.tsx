@@ -45,7 +45,7 @@ const TopBar = () => {
                   className={`cursor-pointer flex-shrink-0 flex items-center`}
                 >
                   <img
-                    className={`h-12 w-auto`}
+                    className={`h-14 w-auto`}
                     src="/assets/icons/nnilogo.png"
                     alt="next"
                   />
