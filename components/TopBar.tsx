@@ -74,17 +74,18 @@ const TopBar = () => {
                   menuTitle={t('Dex Tools')}
                   // linksArray: [name: string, href: string, isExternal: boolean]
                   linksArray={[
-                    ['Liquidity', 'https://www.neonomad.finance/', false],
-                    ['Pools', 'https://www.neonomad.finance/', false],
-                    ['Farms', 'https://www.neonomad.finance/', false],
-                    ['Staking', 'https://www.neonomad.finance/', false],
-                    ['Airdrop Claim', 'https://www.neonomad.finance/', false],
-                    ['NFTs', 'https://www.neonomad.finance/', false],
-                    ['Data Feed', 'https://www.neonomad.finance/', false],
+                    ['Liquidity', '#', false],
+                    ['Pools', '#', false],
+                    ['Farms', '#', false],
+                    ['Staking', '#', false],
+                    ['Airdrop Claim', '#', false],
+                    ['NFTs', 'https://www.neonomad.finance/nft-market-place', false],
+                    ['Data Feed', '#', false],
                     ['Docs', 'https://docs.neonomad.finance/', false],
 
                   ]}
                  />
+                 <MenuItem href="https://futures.neonomad.exchange/swap">{t('Swap')}</MenuItem>
                 {/* <button
                   onClick={() => {
                     handleLocaleChange('en')
