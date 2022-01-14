@@ -78,7 +78,7 @@ const MarketSelect = () => {
         <div className="flex items-center justify-between pl-3 w-full">
           <div className="flex items-center space-x-6">
             {sortedMarkets
-              .filter((m) => !hiddenMarkets.includes(m.baseAsset))
+              .filter((m) => !hiddenMarkets.includes(m.baseAsset) && m.baseAsset != "MNGO")
               .map((s) => (
                 <MarketMenuItem
                   key={s.baseAsset}
