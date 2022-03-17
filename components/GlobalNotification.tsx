@@ -21,7 +21,7 @@ const GlobalNotification = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            https://status.solana.com
+            https://app.neonomad.exchange
           </a>
         </div>
 
