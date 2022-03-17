@@ -13,10 +13,10 @@ const GlobalNotification = () => {
       <div className="flex items-center bg-th-bkg-4 text-th-fgd-1">
         <div className="w-full text-center p-2.5">
           <span>
-            The NeoNomad Exchange is currently under testing. See Solana Network Status
+            NNI Token IDO date: 6th April 2022 on the NomadPad. Get Whitelisted!
           </span>
           <a
-            href="https://status.solana.com"
+            href="https://app.neonomad.exchange"
             className="ml-2"
             target="_blank"
             rel="noopener noreferrer"
