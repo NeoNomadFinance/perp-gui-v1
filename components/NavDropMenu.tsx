@@ -42,7 +42,7 @@ export default function NavDropMenu({ menuTitle = '', linksArray = [] }) {
                 <span className="font-bold">{menuTitle}</span>
                 <DotsHorizontalIcon
                   className="h-4 w-4 default-transition ml-1.5"
-                  aria-hidden="true"
+                  aria-hidden="false"
                 />
               </div>
             </Popover.Button>

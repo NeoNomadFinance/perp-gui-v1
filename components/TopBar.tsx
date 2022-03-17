@@ -66,11 +66,11 @@ const TopBar = () => {
                   menuTitle={t('')}
                   // linksArray: [name: string, href: string, isExternal: boolean]
                   linksArray={[
-                    ['Account', 'https://futures.neonomad.exchange/account', false],
-                    ['Borrow', 'https://futures.neonomad.exchange/borrow', false],
-                    ['Risk Calculator', 'https://futures.neonomad.exchange/risk-calculator', false],
-                    ['Stats', 'https://futures.neonomad.exchange/stats', false],
-                    ['Docs', 'https://docs.neonomad.finance/', false],
+                    ['Account', 'https://futures.neonomad.exchange/account', true],
+                    ['Borrow', 'https://futures.neonomad.exchange/borrow', true],
+                    ['Risk Calculator', 'https://futures.neonomad.exchange/risk-calculator', true],
+                    ['Stats', 'https://futures.neonomad.exchange/stats', true],
+                    ['Docs', 'https://docs.neonomad.finance/', true],
                   ]}
                 />
                
@@ -79,14 +79,14 @@ const TopBar = () => {
                   menuTitle={t('')}
                   // linksArray: [name: string, href: string, isExternal: boolean]
                   linksArray={[
-                    ['Liquidity', '#', false],
-                    ['Pools', '#', false],
-                    ['Farms', '#', false],
-                    ['Staking', '#', false],
-                    ['Airdrop Claim', '#', false],
-                    ['NFTs', 'https://www.neonomad.finance/nft-market-place', false],
-                    ['Data Feed', '#', false],
-                    ['Docs', 'https://docs.neonomad.finance/', false],
+                    ['Liquidity', '#', true],
+                    ['Pools', '#', true],
+                    ['Farms', '#', true],
+                    ['Staking', '#', true],
+                    ['Airdrop Claim', '#', true],
+                    ['NFTs', 'https://www.neonomad.finance/nft-market-place', true],
+                    ['Data Feed', '#', true],
+                    ['Docs', 'https://docs.neonomad.finance/', true],
 
                   ]}
                  />
