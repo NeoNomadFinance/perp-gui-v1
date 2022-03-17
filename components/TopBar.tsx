@@ -54,38 +54,41 @@ const TopBar = () => {
               <div
                 className={`hidden md:flex md:items-center md:space-x-4 lg:space-x-6 md:ml-4`}
               >
-                 <MenuItem href={defaultMarket.path}>{t('Futures')}</MenuItem>
+                
+                <MenuItem href="https://neonomad.finance">{t('Home')}</MenuItem>
+                <MenuItem href="https://futures.neonomad.exchange/swap">{t('Swap')}</MenuItem>
                 
                  
-                <NavDropMenu
-                  menuTitle={t('Futures Tools')}
+             //   <NavDropMenu
+               //   menuTitle={t('Futures Tools')}
                   // linksArray: [name: string, href: string, isExternal: boolean]
-                  linksArray={[
-                    ['Account', 'https://futures.neonomad.exchange/account', false],
-                    ['Borrow', 'https://futures.neonomad.exchange/borrow', false],
-                    ['Risk Calculator', 'https://futures.neonomad.exchange/risk-calculator', false],
-                    ['Stats', 'https://futures.neonomad.exchange/stats', false],
-                    ['Docs', 'https://docs.neonomad.finance/', false],
-                  ]}
+                 // linksArray={[
+                 //   ['Account', 'https://futures.neonomad.exchange/account', false],
+                 //   ['Borrow', 'https://futures.neonomad.exchange/borrow', false],
+                 //   ['Risk Calculator', 'https://futures.neonomad.exchange/risk-calculator', false],
+                 //   ['Stats', 'https://futures.neonomad.exchange/stats', false],
+                 //   ['Docs', 'https://docs.neonomad.finance/', false],
+                //  ]}
                 />
-               <MenuItem href="https://dex.neonomad.exchange/#/market/A8YFbxQYFVqKZaoYJLLUVcQiWP7G2MeEgW5wsAQgMvFw">{t('DEX')}</MenuItem>
+               <MenuItem href={defaultMarket.path}>{t('Futures')}</MenuItem>
+               <MenuItem href="https://dex.neonomad.exchange/#/market/A8YFbxQYFVqKZaoYJLLUVcQiWP7G2MeEgW5wsAQgMvFw">{t('Trade')}</MenuItem>
 
                 <NavDropMenu
-                  menuTitle={t('Dex Tools')}
+                 // menuTitle={t('Dex Tools')}
                   // linksArray: [name: string, href: string, isExternal: boolean]
-                  linksArray={[
-                    ['Liquidity', '#', false],
-                    ['Pools', '#', false],
-                    ['Farms', '#', false],
-                    ['Staking', '#', false],
-                    ['Airdrop Claim', '#', false],
-                    ['NFTs', 'https://www.neonomad.finance/nft-market-place', false],
-                    ['Data Feed', '#', false],
-                    ['Docs', 'https://docs.neonomad.finance/', false],
+                 // linksArray={[
+                  //  ['Liquidity', '#', false],
+                   // ['Pools', '#', false],
+                  //  ['Farms', '#', false],
+                   // ['Staking', '#', false],
+                   // ['Airdrop Claim', '#', false],
+                   // ['NFTs', '#', false],
+                  //  ['Data Feed', '#', false],
+                  //  ['Docs', 'https://docs.neonomad.finance/', false],
 
-                  ]}
+                 // ]}
                  />
-                 <MenuItem href="https://futures.neonomad.exchange/swap">{t('Swap')}</MenuItem>
+                 
                 {/* <button
                   onClick={() => {
                     handleLocaleChange('en')
