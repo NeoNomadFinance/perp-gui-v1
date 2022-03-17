@@ -56,7 +56,7 @@ const TopBar = () => {
               >
                 <MenuItem href="https://futures.neonomad.exchange/swap">{t('Swap')}</MenuItem>
                  <MenuItem href={defaultMarket.path}>{t('Futures')}</MenuItem>
-                
+                 <MenuItem href="https://dex.neonomad.exchange/#/market/A8YFbxQYFVqKZaoYJLLUVcQiWP7G2MeEgW5wsAQgMvFw">{t('Trade')}</MenuItem>
                  
                 <NavDropMenu
                   menuTitle={t('Futures Tools')}
@@ -69,7 +69,7 @@ const TopBar = () => {
                     ['Docs', 'https://docs.neonomad.finance/', false],
                   ]}
                 />
-               <MenuItem href="https://dex.neonomad.exchange/#/market/A8YFbxQYFVqKZaoYJLLUVcQiWP7G2MeEgW5wsAQgMvFw">{t('DEX')}</MenuItem>
+               
 
                 <NavDropMenu
                   menuTitle={t('Dex Tools')}
