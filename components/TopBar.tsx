@@ -55,14 +55,13 @@ const TopBar = () => {
                 className={`hidden md:flex md:items-center md:space-x-4 lg:space-x-6 md:ml-4`}
               >
                 <MenuItem href="https://neonomad.finance">{t('Home')}</MenuItem>
-                <MenuItem href="https://futures.neonomad.exchange/swap">{t('Swap')}</MenuItem>
-                 <MenuItem href={defaultMarket.path}>{t('Futures')}</MenuItem>
+                <MenuItem href="https://futures.neonomad.exchange/swap">{t('Swap')}</MenuItem>               
                  <MenuItem href="https://dex.neonomad.exchange/#/market/A8YFbxQYFVqKZaoYJLLUVcQiWP7G2MeEgW5wsAQgMvFw">{t('Trade')}</MenuItem>
                  <MenuItem href="#">{t('Farm')}</MenuItem>
                  <MenuItem href="#">{t('Staking')}</MenuItem>
                  <MenuItem href="https://app.neonomad.exchange">{t('Launchpad')}</MenuItem>
                  
-                <NavDropMenu
+                {/* <NavDropMenu
                   menuTitle={t('')}
                   // linksArray: [name: string, href: string, isExternal: boolean]
                   linksArray={[
@@ -72,7 +71,7 @@ const TopBar = () => {
                     ['Stats', 'https://futures.neonomad.exchange/stats', true],
                     ['Docs', 'https://docs.neonomad.finance/', true],
                   ]}
-                />
+                /> */}
                
 
                 {/* <NavDropMenu
@@ -91,7 +90,7 @@ const TopBar = () => {
                   ]}
                  />  */}
 
-                 <MenuItem href="https://futures.neonomad.exchange/swap">{t('Swap')}</MenuItem>
+                 
                 {/* <button
                   onClick={() => {
                     handleLocaleChange('en')
