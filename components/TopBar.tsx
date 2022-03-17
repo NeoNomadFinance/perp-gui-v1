@@ -62,7 +62,7 @@ const TopBar = () => {
                  <MenuItem href="#">{t('Staking')}</MenuItem>
                  <MenuItem href="https://app.neonomad.exchange">{t('Launchpad')}</MenuItem>
                  
-                <NavDropMenu
+                {/* <NavDropMenu
                   menuTitle={t('Futures Tools')}
                   // linksArray: [name: string, href: string, isExternal: boolean]
                   linksArray={[
@@ -72,10 +72,10 @@ const TopBar = () => {
                     ['Stats', 'https://futures.neonomad.exchange/stats', false],
                     ['Docs', 'https://docs.neonomad.finance/', false],
                   ]}
-                />
+                /> */}
                
 
-                <NavDropMenu
+                {/* <NavDropMenu
                   menuTitle={t('Dex Tools')}
                   // linksArray: [name: string, href: string, isExternal: boolean]
                   linksArray={[
@@ -89,7 +89,7 @@ const TopBar = () => {
                     ['Docs', 'https://docs.neonomad.finance/', false],
 
                   ]}
-                 />
+                 /> */}
                  
                 {/* <button
                   onClick={() => {
