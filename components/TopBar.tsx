@@ -75,9 +75,9 @@ const TopBar = () => {
                 />
                
 
-                <NavDropMenu
-                  menuTitle={t('')}
-                  // linksArray: [name: string, href: string, isExternal: boolean]
+                {/* <NavDropMenu
+                  menuTitle={t('Dex Tools')}
+                 
                   linksArray={[
                     ['Liquidity', '#', true],
                     ['Pools', '#', true],
@@ -89,8 +89,9 @@ const TopBar = () => {
                     ['Docs', 'https://docs.neonomad.finance/', true],
 
                   ]}
-                 />
-                 
+                 />  */}
+
+                 <MenuItem href="https://futures.neonomad.exchange/swap">{t('Swap')}</MenuItem>
                 {/* <button
                   onClick={() => {
                     handleLocaleChange('en')
