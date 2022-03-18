@@ -55,10 +55,10 @@ const TopBar = () => {
                 className={`hidden md:flex md:items-center md:space-x-4 lg:space-x-6 md:ml-4`}
               >
                 <MenuItem href="https://neonomad.finance">{t('Home')}</MenuItem>
-                <MenuItem href="https://trade.neonomad.exchange/swap">{t('Swap')}</MenuItem>               
+                {/* <MenuItem href="https://trade.neonomad.exchange/swap">{t('Swap')}</MenuItem>               
                  <MenuItem href="#">{t('Trade')}</MenuItem>
                  <MenuItem href="#">{t('Farm')}</MenuItem>
-                 <MenuItem href="#">{t('Staking')}</MenuItem>
+                 <MenuItem href="#">{t('Staking')}</MenuItem> */}
                  <MenuItem href="https://app.neonomad.exchange/launchpad">{t('Launchpad')}</MenuItem>
                  
                 {/* <NavDropMenu
